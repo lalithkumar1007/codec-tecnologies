@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+header {
+  background: #e63946;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+.customize-order form {
+  display: flex;
+  flex-direction: column;
+}
+.customize-order select,
+.customize-order input[type="checkbox"] {
+  margin: 5px 0;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #1d3557;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.delivery-status ul {
+  list-style: none;
+  padding: 0;
+}
+.delivery-status li {
+  padding: 10px;
+  border-left: 4px solid lightgray;
+  margin: 5px 0;
+}
+.delivery-status .done {
+  border-left: 4px solid green;
+  color: green;
+}
+.delivery-status .active {
+  border-left: 4px solid orange;
+  color: orange;
+}
+footer {
+  background: #e63946;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
